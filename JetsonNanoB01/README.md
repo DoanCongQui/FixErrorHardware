@@ -4,7 +4,7 @@ Sau đây là link hướng dẫn setup: [Update](https://qengineering.eu/instal
 
 # Step 2. PATH cuda cho Jetson Nanop Kit B01
 
-Đầu tiên mở `Terminal` và nhập lệnh `sudo vim ~/.bashrc`. Tiếp theo copy dưới đây vào cuối dòng 
+Đầu tiên mở `Terminal` và nhập lệnh `sudo vim ~/.bashrc`. Tiếp theo copy phần sau vào cuối dòng 
 
 ```
 export PATH=/usr/local/cuda/bin:$PATH
