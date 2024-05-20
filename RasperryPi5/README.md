@@ -1,3 +1,4 @@
-# Setup x11vnc on Rasperry Pi 5 
+# Setup VNC cho Rasperry Pi 5 
 
+Sau đây là link hướng dẫn
 [Link setup vnc](https://linuxopsys.com/setup-x11vnc-on-ubuntu)
