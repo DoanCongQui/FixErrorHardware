@@ -12,6 +12,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ```
 Cuối cùng nhập lệnh `exec bash` và kiểm tra xem đã có cuda chưa bằng lệnh `ncvv --version`
 
+## 2.1 - Downlaod 
 Download `jtop` Jetson Nano Kit 
 ```
 sudo apt update
