@@ -23,8 +23,12 @@ sudo systemctl restart jtop.service
 Sau khi download khơi động lại
 
 ## 2.2 - Pytorch
+
+Một số packages cần thiết
 ```
-https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
+sudo apt update
+sudo apt install -y python3.8 python3.8-venv python3.8-dev python3-pip \
+libopenmpi-dev libomp-dev libopenblas-dev libblas-dev libeigen3-dev libcublas-dev
 ```
 
 
