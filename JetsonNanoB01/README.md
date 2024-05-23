@@ -80,3 +80,6 @@ function chpwd() {
 }
 
 ```
+Fix camera
+
+[Link fix](https://github.com/jetsonhacks/camera-caps)
