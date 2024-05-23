@@ -41,6 +41,9 @@ Update 1 số packages cho môi trường ảo
 ```
 pip install -U pip wheel gdown
 ```
+Dowload 2 file và đưa vào thư mục có chứa môi trường ảo vừa mới cài đặt 
+
+(Link 1)[(https://drive.google.com/drive/folders/1zlvJ7xYmXTC3D-1JwzFo_3FsEH-eEUYU?usp=sharing)]
 
 Dowload `Pytorch`
 ```
