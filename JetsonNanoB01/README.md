@@ -31,4 +31,9 @@ sudo apt install -y python3.8 python3.8-venv python3.8-dev python3-pip \
 libopenmpi-dev libomp-dev libopenblas-dev libblas-dev libeigen3-dev libcublas-dev
 ```
 
+Tạo môi trường ảo `Python3.8`
+```
+python3.8 -m venv vnic
+source vnic/bin/activate
+```
 
