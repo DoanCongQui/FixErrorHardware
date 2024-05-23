@@ -12,7 +12,9 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ```
 Cuối cùng nhập lệnh `exec bash` và kiểm tra xem đã có cuda chưa bằng lệnh `ncvv --version`
 
-## 2.1 - Jtop
+# Step3. Download Packages Jetson Nano Kit
+
+## 3.1 - Jtop
 Download `jtop` Jetson Nano Kit 
 ```
 sudo apt update
@@ -22,7 +24,7 @@ sudo systemctl restart jtop.service
 
 Sau khi download khơi động lại
 
-## 2.2 - Pytorch
+## 3.2 - Pytorch
 
 Download một số packages cần thiết
 ```
