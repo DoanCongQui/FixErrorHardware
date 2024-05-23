@@ -69,7 +69,6 @@ cd() {
 
 - Với zsh `.zshrc`
 ```
-# Ghi đè lệnh cd để kiểm tra thư mục đích
 function chpwd() {
     if [ -d "vinc" ]; then
         source vnic/bin/activate
