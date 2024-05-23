@@ -24,7 +24,7 @@ Sau khi download khơi động lại
 
 ## 2.2 - Pytorch
 
-Một số packages cần thiết
+Download một số packages cần thiết
 ```
 sudo apt update
 sudo apt install -y python3.8 python3.8-venv python3.8-dev python3-pip \
@@ -37,3 +37,14 @@ python3.8 -m venv vnic
 source vnic/bin/activate
 ```
 
+Update 1 số packages cho môi trường ảo
+```
+pip install -U pip wheel gdown
+```
+
+Dowload `Pytorch`
+```
+pip install Cython opencv-python numpy
+pip install torch-1.11.0a0+gitbc2c6ed-cp38-cp38-linux_aarch64.whl
+pip install torchvision-0.12.0a0+9b5a3fe-cp38-cp38-linux_aarch64.whl
+```
