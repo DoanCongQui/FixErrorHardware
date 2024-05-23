@@ -54,7 +54,8 @@ pip install torchvision-0.12.0a0+9b5a3fe-cp38-cp38-linux_aarch64.whl
 Sau khi cài đặt xong pytorch gọi lệnh `pip install ultralytics`
 
 Tự động kích hoạt môi trường ảo khi `cd` vào 1 thư mục có chứa môi trường ảo
-Với bash `.bashrc`
+
+- Với bash `.bashrc`
 ```
 cd() {
     builtin cd "$@" || return
@@ -66,7 +67,7 @@ cd() {
 }
 ```
 
-Với zsh `.zshrc`
+- Với zsh `.zshrc`
 ```
 # Ghi đè lệnh cd để kiểm tra thư mục đích
 function chpwd() {
