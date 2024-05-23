@@ -51,3 +51,4 @@ pip install Cython opencv-python numpy
 pip install torch-1.11.0a0+gitbc2c6ed-cp38-cp38-linux_aarch64.whl
 pip install torchvision-0.12.0a0+9b5a3fe-cp38-cp38-linux_aarch64.whl
 ```
+Sau khi cài đặt xong pytorch gọi lệnh `pip install ultralytics`
