@@ -14,6 +14,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
+" File browser
+  Plug 'preservim/nerdTree'                     " File browser  
+  Plug 'ryanoasis/vim-devicons'                 " Icon
+
 " Comment 
   Plug 'jiangmiao/auto-pairs'                   " Parenthesis auto
   Plug 'preservim/nerdcommenter'                " Comment code
@@ -62,3 +66,19 @@ let g:NERDTrimTrailingWhitespace = 1
 
 " Enable NERDCommenterToggle to check all selected lines is commented or not 
 let g:NERDToggleCheckAllLines = 1
+
+" ---------------- File Browers ---------------
+" F5 to toggle 
+map <silent> <C-n> :NERDTreeToggle<CR>
+
+" Open the existing NERDTree on each new tab.
+"autocmd BufWinEnter * silent NERDTreeMirror
+
+" Exit Vim if NERDTree is the only window left.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+" Change arrow to expand/collapse tree
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+
+"let NERDTreeMapOpenInTab='<ENTER>'
