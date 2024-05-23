@@ -22,7 +22,7 @@ sudo systemctl restart jtop.service
 
 Sau khi download khơi động lại
 
-# 2.2 - Pytorch
+## 2.2 - Pytorch
 ```
 https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
 ```
