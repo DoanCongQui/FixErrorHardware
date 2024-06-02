@@ -1,4 +1,4 @@
-# Fix Midia Video Ubuntu 
+# Fix Media Video Ubuntu 
 ```
 sudo apt update
 sudo apt install ubuntu-restricted-extras
