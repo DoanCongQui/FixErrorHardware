@@ -85,7 +85,7 @@ Fix camera
 [Link fix](https://github.com/jetsonhacks/camera-caps)
 
 # Fix Download Arduino Jetson
-Download soure Arduino tử github
+Download soure Arduino từ github
 ```
  git clone https://github.com/JetsonHacksNano/installArduinoIDE
 ```
