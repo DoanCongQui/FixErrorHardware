@@ -83,3 +83,20 @@ function chpwd() {
 Fix camera
 
 [Link fix](https://github.com/jetsonhacks/camera-caps)
+
+# Fix Download Arduino Jetson
+Download soure Arduino tử github
+```
+ git clone https://github.com/JetsonHacksNano/installArduinoIDE
+```
+Trỏ đến thư mục `installArduinoIDE`
+```
+./installArduinoIDE.sh
+```
+`Sau khi cài đặt khởi động lại Jetsonano`
+
+Setup port cho Arduino
+```
+sudo usermod -aG dialout $USER
+```
+
