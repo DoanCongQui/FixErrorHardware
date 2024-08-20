@@ -34,3 +34,13 @@ rsync -avz /path/to/local/dir/ pi@raspberrypi.local:/path/to/remote/dir/
 ```
 rsync -avz pi@raspberrypi.local:/path/to/remote/dir/ /path/to/local/dir/
 ```
+
+## Sử dụng GUI
+Download
+```
+sudo apt-get install filezilla
+```
+Kết nối vào Ras xem port
+```
+sudo ss -tuln
+```
