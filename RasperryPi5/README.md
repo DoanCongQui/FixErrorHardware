@@ -9,3 +9,10 @@ Fix lightdm Pi5
 ```
 https://askubuntu.com/questions/1502950/raspi5-23-10-cannot-switch-to-lightdm-from-gdm3
 ```
+# Chuyển file giữa Linux và raspberry
+Kết nối với local raspberry
+```
+sftp pi@raspberry.local
+```
+`put: `Chuyển từ Linux ==> Ras
+`get: `Chuyển từ Ras ==> Linux
