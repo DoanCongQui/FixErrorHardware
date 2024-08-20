@@ -14,5 +14,6 @@ Kết nối với local raspberry
 ```
 sftp pi@raspberry.local
 ```
-`put: `Chuyển từ Linux ==> Ras
-`get: `Chuyển từ Ras ==> Linux
+- `put:`Chuyển từ Linux ==> Ras
+
+- `get:`Chuyển từ Ras ==> Linux
