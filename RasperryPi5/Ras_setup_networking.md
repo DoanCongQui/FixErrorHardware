@@ -70,5 +70,9 @@ static ip_address=192.168.1.<IP>/24
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1 8.8.8.8
 ```
-- Cuối cùng restart dhcpcd `sudo systemctl restart dhcpcd` và `Reboot` 
+- Cuối cùng restart dhcpcd `sudo systemctl restart dhcpcd` và `Reboot`
+
+```
+sudo nmcli dev wifi connect "Banh Mi" password "123@Abcd"
+```
 
